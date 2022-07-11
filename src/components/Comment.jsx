@@ -11,7 +11,7 @@ export function Comment({content, onDeleteComment}) {
       return state + 1;
     });
   }
-
+ 
   function handleDeleteComment() {
     onDeleteComment(content);
   }
