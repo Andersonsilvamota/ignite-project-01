@@ -106,7 +106,12 @@
 
 }
 
-.commentForm button[type=sumbit]:hover {
+.commentForm button[type=submit]:disabled{
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.commentForm button[type=sumbit]:not(:disabled):hover {
   background: var(--green-300);
 }
 
